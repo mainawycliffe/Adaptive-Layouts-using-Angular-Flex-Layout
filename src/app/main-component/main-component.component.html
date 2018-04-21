@@ -1,0 +1,14 @@
+<div fxFlex fxLayout.lt-md="column" fxLayout="row wrap" fxLayoutGap="20px">
+  <div fxFlex="100" fxLayoutAlign="center center">
+    Welcome to Adaptive Layout Demo. The companying article for this post can be found
+    <a href="" target="_blank"> here. </a>
+  </div>
+
+  <div fxFlex="100" fxLayoutAlign="center center">
+    On small screen (900px or below) this demo will open the form on a new page while on large screens (900px and Above) this
+    will open on a modal window.
+  </div>
+  <div fxFlex="100" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+    <button (click)="open()" fxFlex.xs="100" mat-raised-button color="primary">Open Form</button>
+  </div>
+</div>

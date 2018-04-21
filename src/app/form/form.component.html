@@ -1,0 +1,6 @@
+<div fxFlex="100" fxLayout="column">
+  <p fxFlex="100" fxLayout="row wrap"> {{ message | titlecase }} </p>
+  <div fxFlex="100" fxFlex="row">
+    <button mat-raised-button color="accent" (click)="output.emit(true)">Close</button>
+  </div>
+</div>
